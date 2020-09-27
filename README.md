@@ -14,7 +14,7 @@ Algorithm predicted a little bit better than naive random pversampling, however,
 ## Undersampling
 The F1 score for low-risk applicants is 0.80 and 0.02 for low and high-risk applicants, respectively. This means the model is better at predicting low-risk applicants but not very good at detecting high-risk applicants, resulting in loans potentially being given out to high-risk applicants.
 
-The balanced accuracy score for this model is 56.72%.
+The balanced accuracy score for this model is 58%.
 
 ## Combination Sampling
 We finally tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. We resampled the data using the SMOTEENN algorithm.
