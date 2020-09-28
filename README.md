@@ -1,7 +1,7 @@
 # Machine Learning (Predicting Credit risk)
 
 ## Credit Risk
-
+Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes.
 
 ## Native Oversampling
 First we compared two oversampling algorithms to determine which algorithm results in the best performance. We oversampled the data using the native random oversampling algorithm and the SMOTE algorithm.
